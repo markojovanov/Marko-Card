@@ -14,7 +14,7 @@ struct InfoView: View {
         RoundedRectangle(cornerRadius: 50)
             .fill(Color.white)
             .frame(height: 50, alignment: /*@START_MENU_TOKEN@*/.center/*@END_MENU_TOKEN@*/)
-            .shadow(radius: 5)
+            .shadow(radius: 7)
             .overlay(
                 HStack {
                     Image(systemName: imageName)
